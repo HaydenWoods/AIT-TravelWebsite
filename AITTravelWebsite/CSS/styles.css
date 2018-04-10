@@ -199,6 +199,13 @@ p, ul, li, h1, h2, h3, h4, h5, form, input {
     height: 35px;
     width: 35px;
     transition: opacity 0.3s;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#burger-button:focus {
+	opacity: 1;
 }
 
 #burger-button:hover {
@@ -314,7 +321,7 @@ p, ul, li, h1, h2, h3, h4, h5, form, input {
 	background-image: url("Images/cityCity.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 0px -100px;
+	background-position: 0px -60px;
 	margin: 0 auto;
 	height: 100%;
 	width: 100%;
@@ -620,10 +627,7 @@ p, ul, li, h1, h2, h3, h4, h5, form, input {
 }
 
 #footer #bottom {
-	height: 25px;
-	color: rgb(255,255,255,0.6);
-	font-family: "Roboto", sans-serif;
-	font-weight: 300;
+	height: 25px;	
 }
 
 #footer #bottom .footer-item {
@@ -634,6 +638,9 @@ p, ul, li, h1, h2, h3, h4, h5, form, input {
 	float: left;
 	line-height: 25px;
 	cursor: pointer;
+	color: rgb(255,255,255,0.6);
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
 }
 
 #footer #bottom .footer-item:hover {

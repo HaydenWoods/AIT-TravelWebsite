@@ -1,0 +1,748 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"fle",
+				"flex-wrap"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"flex",
+				"flex-basis"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"load",
+				"loadEnd"
+			],
+			[
+				"para",
+				"parallaxInstance"
+			],
+			[
+				"text-de",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"fony",
+				"font-family"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"contn",
+				"content-container"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"tra",
+				"translateZ()"
+			],
+			[
+				"ro",
+				"rotate()"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"num",
+				"numCount"
+			],
+			[
+				"backr",
+				"background-repeat"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"c",
+				"currentTop"
+			],
+			[
+				"y",
+				"yChange"
+			],
+			[
+				"onmo",
+				"onmousemove\tAttr"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"backgro",
+				"background-image"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fir",
+				"firePosition"
+			],
+			[
+				"fire",
+				"firePosition"
+			],
+			[
+				"fireP",
+				"firePosition"
+			],
+			[
+				"firePo",
+				"firePoint"
+			],
+			[
+				"mouse",
+				"mousePos"
+			],
+			[
+				"fr",
+				"firePosition"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"s",
+				"strength-container"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"textd",
+				"text-decoration"
+			],
+			[
+				"side",
+				"side-nav-item"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"ovef",
+				"overflow-x"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"bak",
+				"background-size"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"nav",
+				"nav-item-text"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"saer",
+				"search-box"
+			],
+			[
+				"border-ra",
+				"border-radius"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"sae",
+				"searchText"
+			],
+			[
+				"aut",
+				"autofocus\tAttr"
+			],
+			[
+				"paddn",
+				"padding-bottom"
+			],
+			[
+				"sear",
+				"searchText"
+			],
+			[
+				"keywor",
+				"keyword-box"
+			],
+			[
+				"searc",
+				"searchBox"
+			],
+			[
+				"se",
+				"searchBox"
+			],
+			[
+				"background-",
+				"background-size"
+			],
+			[
+				"border-top",
+				"border-top-left-radius"
+			],
+			[
+				"time",
+				"struct_time"
+			],
+			[
+				"Press",
+				"PressKey"
+			],
+			[
+				"to",
+				"totalMoneyText"
+			],
+			[
+				"wood",
+				"woodLength"
+			],
+			[
+				"block",
+				"blockSpawner"
+			],
+			[
+				"bloc",
+				"blockSpawner"
+			],
+			[
+				"player",
+				"playerMoving"
+			],
+			[
+				"Spaw",
+				"SpawnBlock"
+			],
+			[
+				"get",
+				"getPasswords"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"game",
+				"gameObject"
+			],
+			[
+				"Up",
+				"UpdatePins"
+			],
+			[
+				"Leve",
+				"LevelSwitch"
+			],
+			[
+				"jum",
+				"jumpForce"
+			],
+			[
+				"Show",
+				"ShowRewardedAd"
+			],
+			[
+				"curr",
+				"currentSpriteName"
+			],
+			[
+				"ra",
+				"RanPerson"
+			],
+			[
+				"play",
+				"player2"
+			],
+			[
+				"power",
+				"powerupType"
+			],
+			[
+				"p",
+				"powerUps"
+			],
+			[
+				"pla",
+				"player1"
+			],
+			[
+				"l",
+				"lIndex"
+			],
+			[
+				"rand",
+				"randrange"
+			],
+			[
+				"O",
+				"OKBLUE"
+			],
+			[
+				"large",
+				"largeNumbers"
+			],
+			[
+				"menu",
+				"menuItems"
+			],
+			[
+				"e",
+				"ENDC"
+			],
+			[
+				"n",
+				"num2"
+			],
+			[
+				"pr",
+				"princ"
+			],
+			[
+				"asn",
+				"answer2"
+			],
+			[
+				"g",
+				"generatePass"
+			],
+			[
+				"log",
+				"logout"
+			],
+			[
+				"up",
+				"upcomingAssesments"
+			],
+			[
+				"user",
+				"userCode"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"house",
+				"houseMenu"
+			],
+			[
+				"st",
+				"studentMenu"
+			],
+			[
+				"object",
+				"objectRB"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"score",
+				"scoreText"
+			],
+			[
+				"scor",
+				"scoreText"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Hayden 1/Documents/SourceTree/AIT-TravelWebsite"
+	],
+	"file_history":
+	[
+		"/C/Users/Hayden/Desktop/AIT Website Task/AITTravelWebsite/index.html",
+		"/C/Users/Hayden/Desktop/Countdown Game/JS/main.js",
+		"/C/Users/Hayden/Desktop/Countdown Game/CSS/styles.css",
+		"/C/Users/Hayden/Desktop/Countdown Game/index.html",
+		"/C/Users/Hayden/Documents/Desktop/Online Card Game/routes/index.html",
+		"/C/Users/Hayden/Desktop/AIT Website Task/AITTravelWebsite/JS/main.js",
+		"/C/Users/Hayden/Desktop/AIT Website Task/AITTravelWebsite/CSS/styles.css",
+		"/C/Users/Hayden/Desktop/poke.ahk",
+		"/C/Users/Hayden/Desktop/AITTravelWebsite2/JS/main.js",
+		"/C/Users/Hayden/Desktop/AITTravelWebsite2/CSS/styles.css",
+		"/C/Users/Hayden/Desktop/AITTravelWebsite2/index.html",
+		"/C/Users/Hayden/Desktop/AITTravelWebsite2/JS/._main.js",
+		"/C/Users/Hayden/Desktop/AITTravelWebsite/CSS/styles.css",
+		"/C/Users/Hayden/Desktop/AITTravelWebsite/index.html",
+		"/C/Users/Hayden/Desktop/AITTravelWebsite/._index.html",
+		"/C/Users/Hayden/Desktop/SideScrollerShooter/Assets/_Scripts/CameraController.cs",
+		"/C/Users/Hayden/Desktop/SideScrollerShooter/Assets/_Scripts/MoveTrail.cs",
+		"/C/Users/Hayden/Desktop/SideScrollerShooter/Assets/_Scripts/GunController.cs",
+		"/C/Users/Hayden/Desktop/SideScrollerShooter/Assets/_Scripts/Controller2D.cs",
+		"/C/Users/Hayden/Desktop/SideScrollerShooter/Assets/_Scripts/Player.cs",
+		"/C/Users/Hayden/Desktop/AITTravelWebsite/JS/main.js",
+		"/Users/Hayden 1/Desktop/Websites/AITTravelWebsite/styles.css",
+		"/Users/Hayden 1/Desktop/Websites/AITTravelWebsite/index.html",
+		"/Users/Hayden 1/Desktop/School/AIT/Travel Video/Website/CSS/styles.css",
+		"/Users/Hayden 1/Desktop/School/AIT/Travel Video/Website/index.html",
+		"/Users/Hayden 1/Desktop/Travel Video/Website/CSS/styles.css",
+		"/Users/Hayden 1/Desktop/Travel Video/Website/index.html",
+		"/Users/Hayden 1/Desktop/Python/badGoogle.py",
+		"/Users/Hayden 1/Desktop/Python/recursive.py",
+		"/Users/Hayden 1/Desktop/Python/percent.py",
+		"/Users/Hayden 1/Desktop/Python/frickyouchris",
+		"/Users/Hayden 1/Desktop/Python/SEQTA/SEQTA.py",
+		"/Users/Hayden 1/Desktop/Python/digitalroot.py",
+		"/Users/Hayden 1/Desktop/Python/spacemytext.py",
+		"/Users/Hayden 1/Desktop/Python/clearhistory.py",
+		"/Users/Hayden 1/Desktop/Python/password.py",
+		"/Users/Hayden 1/Desktop/Python/chris.py",
+		"/Users/Hayden 1/Desktop/Python/fastfingers.py",
+		"/Users/Hayden 1/Desktop/NewPortfolioWebsite/JS/main.js",
+		"/Users/Hayden 1/Desktop/NewPortfolioWebsite/index",
+		"/Users/Hayden 1/Desktop/NewPortfolioWebsite/styles.css",
+		"/Users/Hayden 1/Desktop/Websites/TestPass/Website/CSS/styles.css",
+		"/Users/Hayden 1/Desktop/Websites/TestPass/Website/JS/main.js",
+		"/Users/Hayden 1/Desktop/Websites/TestPass/Website/index.html",
+		"/Users/Hayden 1/Desktop/TestPass/Website/JS/main.js",
+		"/Users/Hayden 1/Desktop/TestPass/Website/CSS/styles.css",
+		"/Users/Hayden 1/Desktop/TestPass/Website/index.html",
+		"/Users/Hayden 1/Desktop/Python/TestPass/Website/CSS/styles.css",
+		"/Users/Hayden 1/Desktop/Python/TestPass/Website/index.html",
+		"/Users/Hayden 1/Desktop/Other/www.passwordrandom.com:most-popular-passwords",
+		"/Users/Hayden 1/Desktop/Other/New MCU Movie Order",
+		"/Users/Hayden 1/Desktop/Websites/ComputerBugs/Website/FA/css/font-awesome.css",
+		"/Users/Hayden 1/Desktop/TestPass/testpass.py",
+		"/Users/Hayden 1/Library/Application Support/Google/Chrome/Default/History",
+		"/Users/Hayden 1/Desktop/Python/timetilldeath.py",
+		"/Users/Hayden 1/Desktop/DODGE/Assets/_Scripts/Shop/ShopItem.cs",
+		"/Users/Hayden 1/Desktop/DODGE/Assets/_Scripts/Shop/ShopController.cs",
+		"/Users/Hayden 1/Desktop/Unity/Unity Projects/FallingBlocks/Assets/Scripts/PlayerController.js",
+		"/Users/Hayden 1/Desktop/Pseudocode Practice/10",
+		"/Users/Hayden 1/Desktop/Pseudocode Practice/9",
+		"/Users/Hayden 1/Desktop/Pseudocode Practice/8",
+		"/Users/Hayden 1/Desktop/Pseudocode Practice/5,6and7",
+		"/Users/Hayden 1/Desktop/Pseudocode Practice/3and4",
+		"/Users/Hayden 1/Desktop/Pseudocode Practice/2",
+		"/Users/Hayden 1/Desktop/Pseudocode Practice/1",
+		"/Users/Hayden 1/Desktop/School/Computer Science/Programming Assignment/Pseudocode",
+		"/Users/Hayden 1/Desktop/dudek.py",
+		"/Users/Hayden 1/Desktop/Websites/Template/CSS/styles.css",
+		"/Users/Hayden 1/Desktop/Websites/Template/index.html",
+		"/Users/Hayden 1/Desktop/Websites/ComputerBugs/Website/Javascript/main.js",
+		"/Users/Hayden 1/Desktop/Websites/ComputerBugs/Website/CSS/styles.css",
+		"/Users/Hayden 1/Desktop/Websites/ComputerBugs/Website/about.html",
+		"/Users/Hayden 1/Desktop/Websites/ComputerBugs/Website/support.html",
+		"/Users/Hayden 1/Desktop/Websites/ComputerBugs/Website/contact.html",
+		"/Users/Hayden 1/Desktop/Websites/ComputerBugs/Website/index.html",
+		"/C/Users/Hayden/Desktop/PortfolioPage/JS/main.js",
+		"/C/Users/Hayden/Desktop/PortfolioPage/CSS/styles.css",
+		"/C/Users/Hayden/Desktop/PortfolioPage/index.html",
+		"/C/Users/Hayden/Desktop/ComputerBugs/Website/index.html",
+		"/C/Users/Hayden/Desktop/SearchPage/CSS/styles.css",
+		"/C/Users/Hayden/Desktop/SearchPage/JS/main.js",
+		"/C/Users/Hayden/Desktop/SearchPage/index.html",
+		"/C/Users/Hayden/Desktop/SearchPage/search",
+		"/C/Users/Hayden/Desktop/ComputerBugs/Website/Javascript/main.js",
+		"/C/Users/Hayden/Desktop/ComputerBugs/Website/about.html",
+		"/C/Users/Hayden/Desktop/ComputerBugs/Website/contact.html",
+		"/C/Users/Hayden/Desktop/ComputerBugs/Website/support.html",
+		"/C/Users/Hayden/Desktop/ComputerBugs/Website/CSS/styles.css",
+		"/Users/Hayden 1/Desktop/Python/googleQuest.py",
+		"/Users/Hayden 1/Desktop/Python/googleQuest2.py",
+		"/Users/Hayden 1/Desktop/Python/SEQTA/iMessage.py",
+		"/Users/Hayden 1/Desktop/Pillow/Test/pillow.py",
+		"/Users/Hayden 1/Desktop/ComputerBugs/CSS/styles.css",
+		"/Users/Hayden 1/Desktop/ComputerBugs/index.html",
+		"/Users/Hayden 1/Desktop/Python/vsauce.py",
+		"/Users/Hayden 1/Desktop/Unity/Unity Projects/FallingBlocks/Assets/Scripts/ShowAd.js",
+		"/Users/Hayden 1/Desktop/ComputerBugs/Javascript/main.js",
+		"/Users/Hayden 1/Desktop/hello world.html",
+		"/Users/Hayden 1/Desktop/Shooter/Assets/_Scripts/Grenade.cs",
+		"/Users/Hayden 1/Desktop/Python/clay.py",
+		"/Users/Hayden 1/Desktop/SEQTA/SEQTA.py",
+		"/Users/Hayden 1/Desktop/Paper Space Battle/Assets/_Scripts/Ship/ShipAbilities.cs",
+		"/Users/Hayden 1/Desktop/SEQTA/iMessage.py",
+		"/Users/Hayden 1/Desktop/ffsdgsbhkdfsjdFBJSGHOWTWOY8Y4YOYY",
+		"/Users/Hayden 1/Desktop/Computer Clicker/Assets/GameController.cs",
+		"/Users/Hayden 1/Desktop/Unity/Unity Projects/Falling Blocks/FallingBlocks/Assets/Scripts/ShowAd.js",
+		"/Users/Hayden 1/Desktop/Unity/Unity Projects/Falling Blocks/FallingBlocks/Assets/Scripts/GameController.js",
+		"/Users/Hayden 1/Desktop/Python/counter.py",
+		"/Users/Hayden 1/Desktop/Python/bored.py",
+		"/Users/Hayden 1/Desktop/SEQTA/SEQTAcracker.py",
+		"/Users/Hayden 1/Desktop/SEQTA/fastffingers.py",
+		"/Users/Hayden 1/Desktop/Python/menu.py",
+		"/Users/Hayden 1/Desktop/Python/oliver.py",
+		"/Users/Hayden 1/Desktop/School/English/Task 2 - Response Journal/A Swimming Pool in Kabul",
+		"/Users/Hayden 1/Desktop/www.passwordrandom.com:most-popular-passwords",
+		"/Users/Hayden 1/Desktop/Python/readWrite.py",
+		"/Users/Hayden 1/Desktop/HTML Websites/Test2/main.html",
+		"/Users/Hayden 1/Desktop/Python/brootforceGuesser.py",
+		"/Users/Hayden 1/Desktop/Python/deleteHistory.py",
+		"/Users/Hayden 1/Desktop/HTML Websites/Test2/styles.css",
+		"/Users/Hayden 1/Desktop/Python/cody.py",
+		"/fastfingers.py",
+		"/Users/Hayden/Desktop/Unity/Unity Projects/AACopy/AACopy/Assets/Scripts/Pin.cs",
+		"/Users/Hayden/Desktop/Unity/Unity Projects/AACopy/AACopy/Assets/Scripts/PinSpawner.cs",
+		"/Users/Hayden/Desktop/Unity/Unity Projects/AACopy/AACopy/Assets/Scripts/GameController.cs",
+		"/Users/Hayden/Desktop/Unity/Unity Projects/AACopy/AACopy/Assets/Scripts/Pin.js",
+		"/Users/Hayden/Desktop/AACopy/AACopy/Assets/Scripts/GameController.cs",
+		"/Users/Hayden/Desktop/Python/SEQTA.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "AIT-TravelWebsite.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
