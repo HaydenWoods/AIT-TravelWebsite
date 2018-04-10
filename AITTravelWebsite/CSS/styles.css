@@ -1,0 +1,757 @@
+/* ASCII ART from http://patorjk.com/software/taag/#p=display&f=Big&t=LOADING */
+
+/*
+   _____  _____ _____     _____  ______  _____ ______ _______ 
+  / ____|/ ____/ ____|   |  __ \|  ____|/ ____|  ____|__   __|
+ | |    | (___| (___     | |__) | |__  | (___ | |__     | |   
+ | |     \___ \\___ \    |  _  /|  __|  \___ \|  __|    | |   
+ | |____ ____) |___) |   | | \ \| |____ ____) | |____   | |   
+  \_____|_____/_____/    |_|  \_\______|_____/|______|  |_|   
+                                                                                                                         
+*/
+
+html, body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+}
+p, ul, li, h1, h2, h3, h4, h5, form, input {
+	font-family: "Rawline", "Arial", "Helvetica", sans-serif;
+}
+
+/*
+           _   _ _____ __  __       _______ _____ ____  _   _ 
+     /\   | \ | |_   _|  \/  |   /\|__   __|_   _/ __ \| \ | |
+    /  \  |  \| | | | | \  / |  /  \  | |    | || |  | |  \| |
+   / /\ \ | . ` | | | | |\/| | / /\ \ | |    | || |  | | . ` |
+  / ____ \| |\  |_| |_| |  | |/ ____ \| |   _| || |__| | |\  |
+ /_/    \_\_| \_|_____|_|  |_/_/    \_\_|  |_____\____/|_| \_|
+                                                              
+*/
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/*
+   _____ ______ _   _ ______ _____            _      
+  / ____|  ____| \ | |  ____|  __ \     /\   | |     
+ | |  __| |__  |  \| | |__  | |__) |   /  \  | |     
+ | | |_ |  __| | . ` |  __| |  _  /   / /\ \ | |     
+ | |__| | |____| |\  | |____| | \ \  / ____ \| |____ 
+  \_____|______|_| \_|______|_|  \_\/_/    \_\______|
+                                                                                                     
+*/
+
+#container {
+   	min-height: 100%;
+   	position: relative;
+   	overflow: hidden;
+}
+
+.noselect {
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none; 
+	-khtml-user-select: none;
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	user-select: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.restrict-1200 {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+/*
+  _      ____          _____ _____ _   _  _____ 
+ | |    / __ \   /\   |  __ \_   _| \ | |/ ____|
+ | |   | |  | | /  \  | |  | || | |  \| | |  __ 
+ | |   | |  | |/ /\ \ | |  | || | | . ` | | |_ |
+ | |___| |__| / ____ \| |__| || |_| |\  | |__| |
+ |______\____/_/    \_\_____/_____|_| \_|\_____|
+                                                
+*/
+
+#loading-container {
+	height: 100vh;
+	width: 100%;
+	top: 0; left: 0;
+	position: fixed;
+	z-index: 100;
+	background: #FFF;
+}
+
+#loading-container .loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #8C678A;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+
+    position:absolute !important; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+}
+
+
+/*
+  _    _ ______          _____  ______ _____  
+ | |  | |  ____|   /\   |  __ \|  ____|  __ \ 
+ | |__| | |__     /  \  | |  | | |__  | |__) |
+ |  __  |  __|   / /\ \ | |  | |  __| |  _  / 
+ | |  | | |____ / ____ \| |__| | |____| | \ \ 
+ |_|  |_|______/_/    \_\_____/|______|_|  \_\
+                                                                           
+*/
+
+#header {
+	width: calc(100% - 80px);
+	height: 60px;
+	padding: 30px 40px 0px 40px;
+	position: absolute;
+	z-index: 2;
+}
+
+#header #logo {
+	height: 60px;
+	width: 60px;
+
+	display: inline-block;
+	float: left;
+
+	background: url("Images/LogoWhite2.png");
+	background-position: center;
+	background-size: 60px;
+	background-repeat: no-repeat;
+	opacity: 0.6;
+	transition: opacity 0.3s;
+}
+
+#header #logo:hover {
+	opacity: 1;
+}
+
+
+#burger-button {
+	position: absolute;
+	top: 0; right: 0;
+    cursor: pointer;
+    margin: 43px 40px 0px 40px;
+    opacity: 0.6;
+    z-index: 2;
+    height: 35px;
+    width: 35px;
+    transition: opacity 0.3s;
+}
+
+#burger-button:hover {
+	opacity: 1;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: #FFF;
+    margin: 6px 0;
+    transition: 0.3s;
+    position: relative;
+}
+
+.burgerChange {
+	position: fixed !important;
+}
+
+.burgerChange .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-7px, 8px);
+}
+
+.burgerChange .bar2 {
+	opacity: 0;
+}
+
+.burgerChange .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-6px, -7px);
+}
+
+#burger-menu {
+	height: 100vh;
+	width: 300px;
+	position: fixed;
+	top: 0; right: -300px;
+	z-index: 1;
+
+	background-color: #000;
+	opacity: 1;
+
+	transition: width 0.4s;
+}
+
+#burger-menu #container {
+	height: calc(100% - 80px);
+	padding-top: 80px;
+}
+
+#burger-menu #nav-container {
+	height: 60%;
+}
+
+#burger-menu #nav-container .nav-item {
+	height: 18px;
+	width: 100%;
+	padding-top: 8px; padding-bottom: 8px;
+	display: inline-block;
+	line-height: 18px;
+	cursor: pointer;
+}
+
+#burger-menu #nav-container .nav-item:hover p {
+	text-decoration: underline;
+	color: #FFF;
+}
+
+#burger-menu #nav-container .nav-item p {
+	text-align: center;
+	font-size: 18px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: #FFF;
+}
+
+#burger-menu #control-container {
+	height: 40%;
+}
+
+
+/*
+  ____   ____  _______     __
+ |  _ \ / __ \|  __ \ \   / /
+ | |_) | |  | | |  | \ \_/ / 
+ |  _ <| |  | | |  | |\   /  
+ | |_) | |__| | |__| | | |   
+ |____/ \____/|_____/  |_|   
+
+*/
+
+#content {
+   padding-bottom: 80px;   /* Height of the footer */
+}
+
+#content #parallax-container {
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+
+#content #parallax-container #parallax {
+	height: 110%;
+	width: 110%;
+	overflow: hidden;
+	position: relative;
+	margin-left: -5%;
+	margin-top: -3%;
+}
+
+#content #parallax-container #parallax #city {
+	background-image: url("Images/cityCity.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -100px;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+}
+
+#content #parallax-container #parallax #sky {
+	background-image: url("Images/citySky.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+}
+
+#content #parallax-container #parallax #logo {
+	width: 100%;
+	height: 100vh;
+	background-image: url("Images/PerthLogo.png");
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: center;
+
+	position:absolute !important; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+}
+
+#content .content-container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#content .first {
+	background: #fff;
+}
+
+#content .second {
+	background: #fff;
+	padding-bottom: 75px;
+}
+
+#content .third {
+	background: #f9f9f9;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	-webkit-box-shadow: inset 0 0 20px 0 rgba(0,0,0,0.2);
+	box-shadow: 		inset 0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+#content .fourth {
+	background: #fff;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+#content .fifth {
+	background: #7665A1;
+	padding-top: 75px;
+	-webkit-box-shadow: inset 0px 7px 30px -15px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow:    inset 0px 7px 30px -15px rgba(0, 0, 0, 0.8);
+    box-shadow:         inset 0px 7px 30px -15px rgba(0, 0, 0, 0.8);
+}
+
+#content .content-container .booking-details {
+	width: 60%;
+	display: inline-block;
+	float: left;
+}
+
+#content .content-container .booking-details h1 {
+	font-size: 48px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	color: #fff;
+}
+
+#content .content-container .booking-details h2 {
+	font-size: 24px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 300;
+	color: #fff;
+
+	padding-top: 10px;
+}
+
+#content .content-container .booking-right {
+	width: 40%;
+	display: inline-block;
+	float: left;
+	padding-top: 14px;
+}
+
+#content .content-container .booking-right #booking-button {
+	height: 46px;
+	width: 115px;
+	background: rgba(0,0,0,0.3);
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+}
+
+#content .content-container .booking-right #booking-button #bottom-line {
+	height: 3px;
+	width: 0%;
+	margin: 0 auto;
+	background: #fff;
+	transition: width 0.3s;
+	margin-top: 11px;
+}
+
+#content .content-container .booking-right #booking-button:hover #bottom-line {
+	width: 100%;
+}
+
+#content .content-container .booking-right #booking-button p {
+	padding-top: 14px;
+	font-size: 18px;
+	color: #FFF;
+	width: 100%;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+}
+
+#content .content-container .gallery-container {
+	display: flex; 
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#content .content-container .left {
+	flex-basis: 25%;
+	padding-top: calc(50% - 40px);
+	background: url("Images/jetty2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	transition: box-shadow 0.2s;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#content .content-container .middle {
+	flex-basis: calc(50% - 40px);
+	padding-top: calc(50% - 40px);
+	margin-right: 20px; margin-left: 20px;
+	background: url("Images/jetty.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	transition: box-shadow 0.2s;
+}
+
+#content .content-container .right {
+	flex-basis: 25%;
+	padding-top: calc(50% - 40px);
+	background: url("Images/beachHouse.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	transition: box-shadow 0.2s;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#content .content-container .text {
+	width: calc(60% - 10px);
+	padding-right: 10px;
+	min-height: 50px;
+	display: inline-block;
+	float: left;
+}
+
+#content .content-container .image {
+	width: calc(40% - 20px);
+	min-height: 350px;
+	display: inline-block;
+	float: left;
+	background: url("Images/quay.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 5px;
+}
+
+#content .content-container .image-right {
+	margin-left: 20px;
+}
+
+#content .content-container .image-left {
+	margin-right: 20px;
+}
+
+#content .content-container .text h1 {
+	width: 100%;
+
+	font-size: 48px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 300;
+}
+
+#content .content-container .text h2 {
+	width: 100%;
+
+	font-size: 22px;
+	font-family: "Raleway", sans-serif;
+}
+
+#content .content-container .text p {
+	width: 100%;
+
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+	line-height: 26px;
+
+	padding-top: 10px;
+}
+
+#content .content-container .flex-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#content .content-container .flex-container .flex-box {
+	min-height: 100px;
+	flex-basis: calc(25% - 20px);
+	border: 1px solid #e8e8e8;
+	margin-right: 10px; margin-left: 10px;
+	padding: 25px 15px 25px 15px;
+	text-align: center;
+	transition: transform 0.3s;
+}
+#content .content-container .flex-container .flex-box:hover {
+	transform: translateY(-10px);
+}
+
+#content .content-container .flex-container .flex-box:first-child {
+	margin-left: 0px;
+} 
+
+#content .content-container .flex-container .flex-box:last-child {
+	margin-right: 0px;
+}
+
+#content .content-container .flex-container .flex-box i {
+	font-size: 78px;
+	color: #808080;
+	transition: color 0.3s;
+}
+#content .content-container .flex-container .flex-box:hover i {
+	color: #7665A1;
+	opacity: 1;
+}
+
+#content .content-container .flex-container .flex-box h1 {
+	font-size: 26px;
+	font-weight: 300;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#content .content-container .flex-container .flex-box p {
+	font-size: 16px;
+	line-height: 28px;
+	font-family: "Roboto", sans-serif;
+}
+
+
+/*
+  ______ ____   ____ _______ ______ _____  
+ |  ____/ __ \ / __ \__   __|  ____|  __ \ 
+ | |__ | |  | | |  | | | |  | |__  | |__) |
+ |  __|| |  | | |  | | | |  |  __| |  _  / 
+ | |   | |__| | |__| | | |  | |____| | \ \ 
+ |_|    \____/ \____/  |_|  |______|_|  \_\
+                                                                                   
+*/
+
+#footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 50px;   /* Height of the footer */
+   background: #7665A1;
+   padding: 10px 0px 20px 0px;
+   color: #fff;
+}
+
+#footer #top {
+	height: 25px;
+}
+
+#footer #top h1 {
+	font-size: 20px;
+	line-height: 25px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: rgb(255,255,255,0.3);
+}
+
+#footer #bottom {
+	height: 25px;
+	color: rgb(255,255,255,0.6);
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+}
+
+#footer #bottom .footer-item {
+	height: 100%;
+	min-width: 50px;
+	padding: 5px 10px 5px 10px;
+	display: inline-block;
+	float: left;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+#footer #bottom .footer-item:hover {
+	text-decoration: underline;
+}
+
+#footer #bottom .footer-item:first-child {
+	padding-left: 0px;
+}
+
+
+/*
+  __  __  ____  ____ _____ _      ______ 
+ |  \/  |/ __ \|  _ \_   _| |    |  ____|
+ | \  / | |  | | |_) || | | |    | |__   
+ | |\/| | |  | |  _ < | | | |    |  __|  
+ | |  | | |__| | |_) || |_| |____| |____ 
+ |_|  |_|\____/|____/_____|______|______|
+
+*/
+
+@media only screen and (max-width: 1240px) {
+	#content #parallax-container #parallax #city {
+		background-position: 0px 0px;
+	}
+
+	.restrict-1200 {
+		width: 100%;
+	}
+
+	#footer {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	#content .content-container {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+
+@media only screen and (max-width: 978px) {
+	#content .content-container .text p {
+		font-size: 16px;
+	}
+
+	#content .content-container .text {
+		width: 100% !important;
+	}
+
+	#content .content-container .image {
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	#content #discover .image {
+		margin-top: 20px;
+	}
+
+	#content #hotel .image {
+		margin-bottom: 20px;
+	}
+
+	#content .content-container .flex-container {
+		flex-wrap: wrap;
+	}
+
+	#content .content-container .flex-container .flex-box {
+		margin-right: 0px;
+		margin-left: 0px;
+		flex-basis: 45%;
+		margin-bottom: 25px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	#content .content-container .flex-container .flex-box {
+		flex-basis: 43%;
+	}
+
+	#content .content-container .left {
+		flex-basis: 100%;
+		padding-top: calc(80% - 40px);
+	}
+	#content .content-container .middle {
+		flex-basis: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-top: calc(80% - 40px);
+	}
+	#content .content-container .right {
+		flex-basis: 100%;
+		padding-top: calc(80% - 40px);
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#content #parallax-container #parallax #logo {
+		width: 250px;
+		height: 125px;
+	}
+}	
+
+@media only screen and (max-width: 650px) {
+	#content .content-container .flex-container .flex-box {
+		flex-basis: 100%;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	#burger-menu {
+		width: 100%;
+	}
+}
+
+
+
+
+
+

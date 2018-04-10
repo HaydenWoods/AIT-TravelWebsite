@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+
+	<!-- JQUERY and JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="JS/main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+	<!-- FONTS and ASSETS -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400|Roboto:300,400" rel="stylesheet">
+	<link href="https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+	<link rel="stylesheet" href="FA/web-fonts-with-css/css/fontawesome-all.min.css">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+
+	<title>Travel Website</title>
+</head>
+<body>
+	<!-- LOADING SCREEN -->
+	<div id="loading-container">
+		<div class="loader"></div>
+	</div>
+
+	<!-- MENU -->
+	<div id="burger-menu">
+		<div id="container">
+			<div id="nav-container">
+				<!-- Each nav option must include an A href to a div ID on the page -->
+				<a href="#header">
+					<div class="nav-item">
+						<p>Home</p>
+					</div>
+				</a>
+				<a href="#discover">
+					<div class="nav-item">
+						<p>Discover Perth</p>
+					</div>
+				</a>
+				<a href="#benefits">
+					<div class="nav-item">
+						<p>Benefits</p>
+					</div>
+				</a>
+				<a href="#gallery">
+					<div class="nav-item">
+						<p>Gallery</p>
+					</div>
+				</a>
+				<a href="#hotel">
+					<div class="nav-item">
+						<p>Accommodation</p>
+					</div>
+				</a>
+				<a href="#book">
+					<div class="nav-item">
+						<p>Booking and Pricing</p>
+					</div>
+				</a>
+			</div>
+			<div id="control-container"></div>
+		</div>
+	</div>
+
+	<!-- Non-absolute Content -->
+	<div id="container">
+		<!-- HEADER -->
+		<div id="header" class="noselect">
+			<a href="">
+				<div id="logo"></div>
+			</a>
+			<div id="burger-button">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+		</div>
+
+		<!-- CONTENT -->
+		<div id="content">
+			<!-- Parallax -->
+			<div id="parallax-container" class="noselect">
+				<div id="parallax">
+					<div id="sky" data-depth="0.03"></div>
+					<div id="city" data-depth="0.05"></div>
+					<div id="logo" data-depth="0.15"></div>
+				</div>
+			</div>
+
+			<!-- First Content/Discover Perth Paragraph -->
+			<div class="content-container first" id="discover">
+				<div class="restrict-1200">
+					<div class="text">
+						<h1>Discover Perth</h1>
+						<h2>Places to explore in Perth</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada, lacus eu laoreet fringilla, eros dui luctus eros, sit amet varius orci erat egestas velit. Etiam ut varius ipsum. Suspendisse imperdiet sollicitudin massa, sit amet faucibus nisl venenatis ut. Curabitur sed rutrum leo. In rhoncus ullamcorper lectus, eget rutrum tortor egestas eget. Duis nunc tortor, varius ultrices malesuada a, ornare at sapien. Pellentesque eleifend, enim eu semper laoreet, purus quam egestas nisi, sed bibendum lectus erat sit amet augue. Integer vestibulum vehicula sem, vel ultrices turpis hendrerit nec. Quisque vitae risus odio. Etiam ut varius ipsum. Suspendisse imperdiet sollicitudin massa, sit amet faucibus nisl venenatis ut. Curabitur sed rutrum leo. In rhoncus ullamcorper lectus, eget rutrum tortor egestas eget. Duis nunc tortor, varius ultrices malesuada a, ornare at sapien. Pellentesque eleifend, enim eu semper laoreet, purus quam egestas nisi, sed bibendum lectus erat sit amet augue. Integer vestibulum vehicula sem.</p>
+					</div>
+					<div class="image noselect image-right"></div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+			<!-- Second Content/Information Boxes -->
+			<div class="content-container second" id="benefits">
+				<div class="restrict-1200">
+					<div class="flex-container">
+						<div class="flex-box">
+							<i class="fas fa-list-ol"></i>
+							<h1>Various Options</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada, lacus eu laoreet fringilla, eros dui luctus eros, sit amet varius orci erat egestas velit. Etiam ut varius ipsum.</p>
+						</div>
+						<div class="flex-box">
+							<i class="fas fa-dollar-sign"></i>
+							<h1>Great Pricing</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada, lacus eu laoreet fringilla, eros dui luctus eros, sit amet varius orci erat egestas velit. Etiam ut varius ipsum.</p>
+						</div>
+						<div class="flex-box">
+							<i class="fas fa-check"></i>
+							<h1>Quality Guaranteed</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada, lacus eu laoreet fringilla, eros dui luctus eros, sit amet varius orci erat egestas velit. Etiam ut varius ipsum.</p>
+						</div>
+						<div class="flex-box">
+							<i class="fas fa-exchange-alt"></i>
+							<h1>Refundable Options</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada, lacus eu laoreet fringilla, eros dui luctus eros, sit amet varius orci erat egestas velit. Etiam ut varius ipsum.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Third Content/Small Gallery -->
+			<div class="content-container third" id="gallery">
+				<div class="restrict-1200 gallery-container">
+					<div class="left"></div>
+					<div class="middle"></div>
+					<div class="right"></div>
+				</div>
+			</div>
+
+			<!-- Fourth Content/Pricing and Options -->
+			<div class="content-container fourth" id="hotel">
+				<div class="restrict-1200">
+					<div class="image noselect image-left"></div>
+					<div class="text">
+						<h1>Five Star Hotel</h1>
+						<h2>The best accommodation in Perth</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada, lacus eu laoreet fringilla, eros dui luctus eros, sit amet varius orci erat egestas velit. Etiam ut varius ipsum. Suspendisse imperdiet sollicitudin massa, sit amet faucibus nisl venenatis ut. Curabitur sed rutrum leo. In rhoncus ullamcorper lectus, eget rutrum tortor egestas eget. Duis nunc tortor, varius ultrices malesuada a, ornare at sapien. Pellentesque eleifend, enim eu semper laoreet, purus quam egestas nisi, sed bibendum lectus erat sit amet augue. Integer vestibulum vehicula sem, vel ultrices turpis hendrerit nec. Quisque vitae risus odio. Etiam ut varius ipsum. Suspendisse imperdiet sollicitudin massa, sit amet faucibus nisl venenatis ut. Curabitur sed rutrum leo. In rhoncus ullamcorper lectus, eget rutrum tortor egestas eget. Duis nunc tortor, varius ultrices malesuada a, ornare at sapien. Pellentesque eleifend, enim eu semper laoreet, purus quam egestas nisi, sed bibendum lectus erat sit amet augue. Integer vestibulum vehicula sem.</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+			<!-- Fifth Content/Book Now-->
+			<div class="content-container fifth" id="book">
+				<div class="restrict-1200">
+					<div class="booking-details">
+						<h1>Get in quick before it sells out!</h1>
+						<h2>Starting from only $799</h2>
+					</div>
+					<div class="booking-right">
+						<div id="booking-button">
+							<p>Book Now</p>
+							<div id="bottom-line"></div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<div id="footer">
+			<div class="restrict-1200">
+				<div id="top">
+					<h1>Hayden Woods 2018</h1>
+				</div>
+				<div id="bottom">
+					<div class="footer-item">
+						7th April 2018
+					</div>
+					<div class="footer-item">
+						Site Map
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Keep images hidden, loads them and allows the Jquery .load() function
+		to see them. Wasnt possible due to them being a background of div -->
+		<img src="CSS/Images/LogoWhite.png" style="display: none" />
+		<img src="CSS/Images/cityCity.png" style="display: none" />
+		<img src="CSS/Images/citySky.png" style="display: none" />
+		<img src="CSS/Images/PerthLogo.png" style="display: none" />
+		<img src="CSS/Images/jetty2.jpg" style="display: none" />
+		<img src="CSS/Images/jetty.jpg" style="display: none" />
+		<img src="CSS/Images/beachHouse.jpg" style="display: none" />
+		<img src="CSS/Images/quay.jpg" style="display: none" />
+	</div>
+</body>
+</html>
