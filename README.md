@@ -9,14 +9,14 @@
 - [x] Target Audience Identification
 - [x] Target Audience Issues and Requirements
 - [x] Project Management Approach
-- [ ] Design Criteria
-- [ ] Sketches and Storyboarding
-- [ ] Site Map
-- [ ] Design Criteria Analysis
-- [ ] Selected Design
-- [ ] Gantt Chart
-- [ ] Flow Chart
-- [ ] Analysis and Conclusion
+- [x] Design Criteria
+- [x] Sketches and Storyboarding
+- [x] Site Map
+- [x] Design Criteria Analysis
+- [x] Selected Design
+- [x] Gantt Chart
+- [x] Flow Chart
+- [x] Analysis and Conclusion
 
 ## Website Tasks
 - [x] Header
@@ -24,4 +24,3 @@
 - [x] Parallax Top Section
 - [x] Content Sections
 - [x] Footer
-- [ ] Paragraph Content
