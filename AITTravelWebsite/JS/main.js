@@ -38,4 +38,44 @@ $(window).on("load", function() {
 	        scrollTop: $($.attr(this, 'href')).offset().top
 	    }, 500);
 	});
+
+	$("#textDown").click(function() {
+		changeText(-1);
+	});
+	$("#textUp").click(function() {
+		changeText(1);
+	});
+
+	function changeText(change) {
+		$('.text p').each(function() {
+	       	var k = parseInt($(this).css('font-size')); 
+	       	var redSize = k + change; 
+	       	console.log(redSize);
+	        $(this).css('font-size',redSize);  
+       	});
+		$('.text h1').each(function() {
+	       	var k = parseInt($(this).css('font-size')); 
+	       	var redSize = k + change; 
+	       	console.log(redSize);
+	        $(this).css('font-size',redSize);  
+       	});
+       	$('.text h2').each(function() {
+	       	var k = parseInt($(this).css('font-size')); 
+	       	var redSize = k + change; 
+	       	console.log(redSize);
+	        $(this).css('font-size',redSize);  
+       	});
+       	$('.flex-box p').each(function() {
+	       	var k = parseInt($(this).css('font-size')); 
+	       	var redSize = k + change; 
+	       	console.log(redSize);
+	        $(this).css('font-size',redSize);  
+       	});
+       	$('.flex-box h1').each(function() {
+	       	var k = parseInt($(this).css('font-size')); 
+	       	var redSize = k + change; 
+	       	console.log(redSize); 
+	        $(this).css('font-size',redSize);  
+       	});
+	}
 });
